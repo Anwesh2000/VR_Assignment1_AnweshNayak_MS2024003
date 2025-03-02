@@ -81,6 +81,14 @@ Ensure that your files are placed in the appropriate directories as specified in
 
 ## Running the Code
 
+## Dependencies
+
+Before running the scripts, install the required Python packages by executing:
+
+```bash
+pip install -r requirements.txt
+```
+
 The coin detection script accepts a command-line argument `--num_coins` to specify the expected number of coins.
 If no argument is provided, the script defaults to using 32 coins.
 
