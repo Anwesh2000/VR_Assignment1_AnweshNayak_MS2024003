@@ -50,6 +50,7 @@ Refer to the code for detailed parameter settings and visualization steps.
 The panorama stitching process involves:
 - **Keypoint Detection:** Using the SIFT detector to extract keypoints from both images.
 - **Keypoint Matching:** Matching keypoints between images using cosine distance, with Lowe's ratio test to filter good matches.
+    *Note: Other distance metrics were attempted for keypoint matching, but the cosine distance approach yielded the best results.*
 - **Homography and Stitching:** Computing a homography matrix based on matched keypoints and blending the images to create a panorama.
 
 ### Output Images
